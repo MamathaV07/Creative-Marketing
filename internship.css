@@ -1,0 +1,117 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: whitesmoke;
+  font-family: "Commissioner", sans-serif;
+}
+
+.logo img {
+  width: 4rem;
+  height: 4rem;
+  margin-left: 1rem;
+  margin-top: -24px;
+  margin-right: 19px;
+  background: none;
+  border-radius: 200%;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 35rem;
+  gap: 55px;
+}
+.nav a {
+  font-size: 18px;
+  color: #fcfcfa;
+  text-decoration: none;
+}
+a.active {
+  text-decoration: underline #ffbf00 3px;
+}
+.header-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+  background-color: #ffbf00;
+  border-radius: 50%;
+  padding: 1rem 1rem;
+  font-weight: 900;
+}
+section {
+  margin-left: 2rem;
+}
+.box1 {
+  margin-bottom: 30px;
+  border-radius: 5rem;
+  padding: 10px;
+  width: 24rem;
+}
+.box2 {
+  border-radius: 5rem;
+  margin-bottom: 18px;
+  padding: 10px;
+  width: 24rem;
+  margin-bottom: 35px;
+}
+.btn {
+  background-color: #ffbf00;
+  padding: 9px 25px 9px 25px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+h1 {
+  margin-top: 4.5rem;
+  font-size: 6rem;
+  margin-bottom: -10px;
+  color: #fcfcfa;
+  font-weight: 900;
+  font-family: "Chela One", system-ui;
+}
+body {
+  background-color: #003262;
+}
+p {
+  color: #fcfcfa;
+  margin-bottom: 25px;
+  font-weight: 800;
+}
+h1 span {
+  color: #ffbf00;
+  font-family: "Chela One", system-ui;
+}
+.main-img img {
+  width: 35rem;
+  height: 25rem;
+  margin-left: 850px;
+  margin-top: -200rem;
+  border-radius: 50%;
+  border-width: 9rem;
+  border: 2px solid #ffbf00;
+  border-top-left-radius: 4rem;
+  border-bottom-right-radius: 4rem;
+  margin-bottom: 4rem;
+}
+h2 {
+  font-size: 24px;
+  margin-left: 6rem;
+  margin-top: -60px;
+  font-weight: 500;
+  margin-bottom: -2px;
+  font-family: "Commissioner", sans-serif;
+}
+.logo .highlight {
+  color: #ffbf00;
+  position: absolute;
+  top: 45px;
+  left: 0.5px;
+  margin-left: 7.9rem;
+  font-size: 25px;
+  font-weight: 900;
+}
